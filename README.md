@@ -23,7 +23,8 @@ Esta é a ***API Mock - Vittude***, é um Projeto que **utiliza Node.js, Express
 ou, 
 
 - Clonar o repositório usando `https://github.com/ThayssaAp/vittude-api-mock.git`;
-- Abrir no terminal e inserir `npm start` para iniciar o projeto;
+- Abrir no terminal e inserir `cd vittude-APIMock` e `npm install`
+- Inserir `npm start` para iniciar o projeto;
 - Usando o Postman ou seu navegador favorito faça uma requisição POST em: `localhost:3010/login`.
 
 <br>
