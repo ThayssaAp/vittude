@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3010;
+const port = process.env.PORT || 3010
 const cors = require("cors")
 
 app.use(express.json());
@@ -16,5 +16,5 @@ app.post("/login", (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log("App listening on port ", port)
+    console.log("Server is runner")
 });
